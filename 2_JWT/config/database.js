@@ -6,6 +6,7 @@ const dbConnect = () => {
     .then(() => console.log("Connection Successful"))
     .catch((error) => {
       console.log("Issue in Connection");
+      console.log("DB : ", process.env.DATABASE_URL);
       console.error(error);
       process.exit(1);
     });
