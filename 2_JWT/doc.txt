@@ -1,3 +1,4 @@
 Authentication -> Verify registered user
 Authorization -> Access rights
 Accept all cookies ?
+token from -> body,header,cookie
